@@ -9,4 +9,8 @@
 		<PackageReference Include="Moryx.AbstractionLayer" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Moryx.ControlSystem\Moryx.ControlSystem.csproj" />
+	</ItemGroup>
+
 </Project>

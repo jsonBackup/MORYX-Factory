@@ -2,10 +2,13 @@
 
 namespace Moryx.Factory
 {
+    /// <summary>
+    /// A manufacturing factory interface
+    /// </summary>
     public interface IManufacturingFactory : IPublicResource
     {
         /// <summary>
-        /// Background URL of factory monitor
+        /// Background URL of the factory monitor
         /// </summary>
         string BackgroundUrl { get; set; }
     }
