@@ -3,7 +3,7 @@
 
   <!-- Central package version management -->
   <PropertyGroup>
-    <MoryxFrameworkVersion>6.0.0</MoryxFrameworkVersion>
+    <MoryxFrameworkVersion>6.0.3</MoryxFrameworkVersion>
   </PropertyGroup>
 
   <Import Project=".build\Common.props" Condition="'$(CreatePackage)' == 'true'" />
